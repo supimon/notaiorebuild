@@ -1,8 +1,7 @@
 $(document).ready(function(){
   $('.sidenav').sidenav();
-  var elems = document.querySelectorAll('.tooltipped');
-  var instances = M.Tooltip.init(elems);
-  //var instance = M.Tooltip.getInstance(elems[1]);
-  setTimeout(function(){console.log(instances[0].el);}, 2000);
+  setTimeout(function(){
+    M.toast({html: 'ATTENZIONE: la sessione di lavoro scadra dopo 10 minuti di inattivita', classes: 'bem-toast'})
+  }, 1000);
 });
       

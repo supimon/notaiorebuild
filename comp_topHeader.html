@@ -18,20 +18,22 @@
 
   <nav class="bem-navbar">
     <div class="nav-wrapper bem-navbar__wrapper">
-      <a href="#" class="brand-logo">Notaio Pellegrino</a>
-      <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="bem-navbar__mainmenu right hide-on-med-and-down">
-        <li><a href="#">Pending Files <span class="new badge">4</span></a></li>
-        <li><a href="#" class="tooltipped" data-position="left" data-tooltip="Help"><i class="material-icons">help</i></a></li>
-        <li><a href="#" class="tooltipped" data-position="top" data-tooltip="Logout"><i class="material-icons">exit_to_app</i></a></li>
+      <a class="brand-logo bem-navbar__logo" href="#">SNPZ NOTAIO A MILANO</a>
+      <a class="sidenav-trigger" href="#" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down bem-navbar__mainmenu" id="nav-mobile">
+        <li class="bem-navbar__username">Hello Admin!</li>
+        <li><a href="#">Notifications <span class="new badge">4</span></a></li>
+        <li><a href="#">Logout</a></li>
+        <li><a href="#"> <i class="material-icons">help</i></a></li>
       </ul>
     </div>
   </nav>
 
   <ul class="sidenav" id="mobile-menu">
+    <li class="bem-navbar__username">Hello Admin!</li>
     <li><a href="#">Pending Files <span class="new badge">4</span></a></li>
-    <li><a href="#">Help</a></li>
     <li><a href="#">Logout</a></li>
+    <li><a href="#">Help</a></li>
   </ul>
   <!-- Scripts -->
   <script src="scripts/vendors/jquery.min.js"></script>

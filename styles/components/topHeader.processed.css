@@ -1,1 +1,1 @@
-.bem-navbar__wrapper{padding-left:16px}
+.bem-navbar__wrapper{padding-left:16px}.bem-navbar .bem-navbar__logo{font-size:1.4rem}.bem-navbar__username{height:48px;line-height:48px;padding:0 32px;color:#26a699}.bem-toast{font-size:.9rem}@media(min-width: 993px){.bem-navbar__username{padding-right:50px;padding-left:0;color:#ff0;height:auto;line-height:inherit}.bem-navbar .bem-navbar__logo{font-size:2.1rem}.bem-toast{font-size:1rem}}@media(max-width: 600px){.bem-navbar .bem-navbar__logo{font-size:1.2rem;width:200px;text-align:center}nav .sidenav-trigger{margin:0}}
